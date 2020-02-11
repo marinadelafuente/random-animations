@@ -1,0 +1,19 @@
+{
+  "name": "random-animations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinadelafuente/random-animations.git"
+  },
+  "author": "Marina de la Fuente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marinadelafuente/random-animations/issues"
+  },
+  "homepage": "https://github.com/marinadelafuente/random-animations#readme"
+}
