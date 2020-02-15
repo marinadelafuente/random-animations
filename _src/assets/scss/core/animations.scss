@@ -1,96 +1,122 @@
 @keyframes rotate {
 
-    0% {
-        transform: rotate(0)
-    }
+  0% {
+    transform: rotate(0)
+  }
 
-    50% {
-        transform: rotate(180deg)
-    }
+  50% {
+    transform: rotate(180deg)
+  }
 
-    100% {
-        transform: rotate(360deg)
-    }
+  100% {
+    transform: rotate(360deg)
+  }
 }
 
 @keyframes rotateInv {
 
-    0% {
-        transform: rotate(360deg)
-    }
+  0% {
+    transform: rotate(360deg)
+  }
 
-    100% {
-        transform: rotate(0)
-    }
+  100% {
+    transform: rotate(0)
+  }
 }
 
 @keyframes load {
 
-    0%,
-    100% {
-        transform: translateZ(-70px)
-    }
+  0%,
+  100% {
+    transform: translateZ(-70px)
+  }
 
 
-    50% {
-        transform: translateZ(70px)
-    }
+  50% {
+    transform: translateZ(70px)
+  }
 }
 
 @keyframes flip {
-    0% {
-        transform: rotate3d(-1, 1, 0, 0deg);
-        transform-origin: 0% 0%;
-    }
+  0% {
+    transform: rotate3d(-1, 1, 0, 0deg);
+    transform-origin: 0% 0%;
+  }
 
-    50% {
-        transform: rotate3d(-1, 1, 0, -180deg);
-        transform-origin: 0% 0%;
-        border: 2px solid rgb(247, 226, 39);
-    }
+  50% {
+    transform: rotate3d(-1, 1, 0, -180deg);
+    transform-origin: 0% 0%;
+    border: 2px solid rgb(247, 226, 39);
+  }
 
-    100% {
-        transform: rotate3d(-1, 1, 0, 0deg);
-        transform-origin: 0% 0%;
-    }
+  100% {
+    transform: rotate3d(-1, 1, 0, 0deg);
+    transform-origin: 0% 0%;
+  }
 }
 
 @keyframes flipInv {
-    0% {
-        transform: rotateX(0);
-        transform-origin: bottom;
-    }
+  0% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+  }
 
-    50% {
-        transform: rotateX(180deg);
-        transform-origin: bottom;
-        border: 2px solid rgb(48, 224, 92);
-    }
+  50% {
+    transform: rotateX(180deg);
+    transform-origin: bottom;
+    border: 2px solid rgb(48, 224, 92);
+  }
 
-    100% {
-        transform: rotateX(0deg);
-        transform-origin: bottom;
-        box-shadow: 0 0 0;
-    }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: bottom;
+    box-shadow: 0 0 0;
+  }
 }
 
 
 @keyframes flipInvUp {
-    0% {
-        transform: rotate3d(1, 1, 0, 0deg);
-        transform-origin: 100% 0%;
-    }
+  0% {
+    transform: rotate3d(1, 1, 0, 0deg);
+    transform-origin: 100% 0%;
+  }
 
-    50% {
-        transform: rotate3d(1, 1, 0, 180deg);
-        transform-origin: 100% 0%;
-        border: 2px solid rgb(23, 7, 236);
+  50% {
+    transform: rotate3d(1, 1, 0, 180deg);
+    transform-origin: 100% 0%;
+    border: 2px solid rgb(23, 7, 236);
 
-    }
+  }
 
-    100% {
-        transform: rotate3d(1, 1, 0, 0deg);
-        transform-origin: 100% 0%;
-        box-shadow: 0 0 0;
-    }
+  100% {
+    transform: rotate3d(1, 1, 0, 0deg);
+    transform-origin: 100% 0%;
+    box-shadow: 0 0 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(45deg) scale(0.8);
+  }
+
+  20% {
+    transform: rotate(45deg) scale(0.5);
+  }
+
+  40% {
+    transform: rotate(45deg) scale(0.7);
+  }
+
+  60% {
+    transform: rotate(45deg) scale(0.6);
+  }
+
+  80% {
+    transform: rotate(45deg) scale(0.9);
+  }
+
+  100% {
+    transform: rotate(45deg) scale(0.8);
+  }
 }
